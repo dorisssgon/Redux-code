@@ -48,8 +48,4 @@ const mapStateToProps = (state)=>{
       data: state.reducer
     }
   }
-const mapDispatchToProps = (dispatch) =>{
-  isSort: ()=>dispatch(isSort())
-  changeItem: (data)=>dispatch(changeItem(data))
-}
 export default connect(mapStateToProps,{isSort,changeItem})(List)
