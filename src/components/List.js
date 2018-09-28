@@ -33,7 +33,7 @@ class List extends React.Component {
               <option value="fruit">Fruit</option>
             </select>
           </label>
-          <button onClick = {this.handleOnClick}>Sort:{this.props.isSort?'ascending':'descending'}</button>
+          <button onClick = {this.handleOnClick}>Sort:{this.props.data.isSort?'ascending':'descending'}</button>
         </div>
         <ul>
           {this.renderItems()}

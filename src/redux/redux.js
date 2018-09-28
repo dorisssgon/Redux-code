@@ -2,7 +2,7 @@ const CHANGE_ITEM = 'CHANGE_ITEM';
 const IS_SORT = 'IS_SORT';
 let initState = {
 filterBy: 'all',
-isSort: false,
+isSort: true,
 items: [
   {
     name: 'Toyota',
